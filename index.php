@@ -1,5 +1,5 @@
 <?php
-$data = file_get_contents('https://www.codeschool.com/users/110833.json');
+$data = file_get_contents('https://www.codeschool.com/users/rsyates.json');
 $json_data = json_decode($data, true);
 // var_dump($json_data['courses']['completed']);
 $courses = $json_data['courses']['completed'];
@@ -10,7 +10,7 @@ $courses = $json_data['courses']['completed'];
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
     <link rel="stylesheet" href="/css/grid.css" media="screen" title="no title" charset="utf-8">
-    <title>Badger</title>
+    <title>Badgers</title>
   </head>
   <body>
     <header>
